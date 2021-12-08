@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script defer src="api-client.js"></script>
+		<script defer src="script.js"></script>
+		<script
+			src="https://kit.fontawesome.com/c707425dd9.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Document</title>
+	</head>
+	<body>
+		<header>
+			<h2>To Do List</h2>
+		</header>
+		<main>
+			<input
+				type="text"
+				id="inputBar"
+				class="mainInput"
+				name="add"
+				onfocus="this.value=' '"
+				value=""
+				;
+				placeholder="New Task"
+			/>
+			<button type="submit" id="addButton">Add</button>
+			<ul id="taskList"></ul>
+		</main>
+	</body>
+</html>
